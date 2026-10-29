@@ -1,0 +1,5 @@
+metric,n,min_pct,max_pct,median_pct_unweighted,n_negative,n_zero,n_positive,n_equal_100_reported
+ssc_med_difference_pct,24,-118.93,100.0,100.0,4,0,20,14
+ssc_max_difference_pct,24,-172.21,100.0,100.0,6,0,18,14
+trv_difference_pct,24,25.89,100.0,100.0,0,0,24,13
+tsy_difference_pct,24,-347.22,100.0,100.0,3,0,21,14

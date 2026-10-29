@@ -65,3 +65,9 @@ python -m unittest discover -s tests -v
 Sem dependências externas. Confere o hash da tabela auditada (todos os 96 valores e metadados), gera `summary.json`, `metrics.csv`, `report.md` e `manifest.json` com hashes. Resultados determinísticos, sem dados sintéticos nesse fluxo. A comparação independente com o documento original é uma etapa separada de extração/auditoria.
 
 Notebook autocontido, sem internet: [notebooks/campos_gerais_agua_kaggle.ipynb](notebooks/campos_gerais_agua_kaggle.ipynb). Pronto para execução no Kaggle; a presença deste arquivo não significa que já foi publicado ou executado naquela plataforma. Exemplos sintéticos continuam apenas no validador de esquema separado.
+
+### Versão 2: auditoria de sensibilidade
+
+O mesmo comando agora calcula médias por registro e balanceadas por data, influência da exclusão de cada data e cenários de denominadores desconhecidos. Descrições publicadas e testemunhas **construídas, não observadas** ficam em pastas separadas. Nenhum cenário representa produtividade/perda medida ou corrige conclusões dos autores. A não identificação se refere à Tabela S1 isolada. Consulte [método e limites](docs/sensitivity_method.md).
+
+[Kaggle — notebook em inglês](https://www.kaggle.com/code/lissandrakruse/campos-gerais-water-published-runoff-pipeline). A versão publicada no Kaggle tem histórico próprio; confira a versão exibida antes de comparar os resultados.

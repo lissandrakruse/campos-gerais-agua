@@ -3,6 +3,7 @@
 import argparse, csv, datetime, hashlib, json, math
 from pathlib import Path
 from extract_springer_s1 import describe, METRICS, DOI, URL
+from analyze_sensitivity import analyze
 EXPECTED_CSV_SHA256 = "52ff69ca53da06c2bd2d441629b79efe64a5435973d9c1957f97096cfbf10215"
 DEFAULT_INPUT = Path(__file__).resolve().parents[1] / "data/published_derived/de_paula_2026_s1_derived_event_contrasts.csv"
 CAVEAT = "Published rounded percentage contrasts, not raw measurements. Unweighted medians are not pooled reductions. No predictive model, causal inference, or regional validation. These 24 selected runoff-event records cover 20 dates of one experiment, not 24 independent sites or all eligible storms. Reported 100% is not independently verified absence. Outlet runoff is not within-field waterlogging. Occurrence classification requires all eligible storms, including verified zero-runoff events."
@@ -41,9 +42,11 @@ def run(input_path=DEFAULT_INPUT, out=Path("outputs/published")):
     for m in METRICS:
         s=summary["metrics"][m]
         lines.append(f"| {m} | {s['min_pct']} | {s['max_pct']} | {s['median_pct_unweighted']} | {s['n_negative']} |")
-    lines += ["", "No pooled reduction is calculated: absolute denominators are missing. No confidence intervals or machine-learning performance are calculated. Original extraction and limitations are documented in data/published_derived/PROVENANCE.md and docs/dados.md.", "", "Row counts do not measure spatial replication. Date inconsistencies between papers are not automatically reconciled. Future limited models may use audited event aggregates and predictors; minute-level hydrographs are not required for every model."]
+    lines += ["", "No observed pooled reduction is calculated: absolute denominators are missing. Constructed denominator scenarios are explicitly hypothetical. No confidence intervals or machine-learning performance are calculated. Original extraction and limitations are documented in data/published_derived/PROVENANCE.md and docs/dados.md.", "", "Row counts do not measure spatial replication. Date inconsistencies between papers are not automatically reconciled. Future limited models may use audited event aggregates and predictors; minute-level hydrographs are not required for every model."]
     (out / "report.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
-    manifest={"pipeline_version":"1.0.0", "input_sha256":sha(input_path), "source_doi":DOI,"source_url":URL,"license_derived_table":"CC BY 4.0", "mode":"published_derived_only", "outputs":{n:sha(out/n) for n in ["summary.json","metrics.csv","report.md"]}}
+    analyze(input_path, out / "sensitivity")
+    output_names=["summary.json","metrics.csv","report.md"] + sorted(str(p.relative_to(out)) for p in (out/"sensitivity").rglob("*") if p.is_file())
+    manifest={"pipeline_version":"2.0.0", "input_sha256":sha(input_path), "source_doi":DOI,"source_url":URL,"license_derived_table":"CC BY 4.0", "mode":"published_derived_and_separate_constructed_scenarios", "outputs":{n:sha(out/n) for n in output_names}}
     # No wall-clock timestamps or absolute paths: same bytes in every output directory.
     (out / "manifest.json").write_text(json.dumps(manifest,indent=2,sort_keys=True)+"\n",encoding="utf-8")
     return summary

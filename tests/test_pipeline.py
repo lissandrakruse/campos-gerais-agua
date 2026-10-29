@@ -9,8 +9,9 @@ class PipelineTests(unittest.TestCase):
    a,b=Path(tmp)/'a',Path(tmp)/'b';s=p.run(out=a);p.run(out=b)
    self.assertEqual(s['n_event_rows'],24)
    self.assertEqual(s['n_distinct_dates'],20)
-   self.assertEqual(sorted(x.name for x in a.iterdir()),['manifest.json','metrics.csv','report.md','summary.json'])
-   for x in a.iterdir():self.assertEqual(x.read_bytes(),(b/x.name).read_bytes())
+   self.assertEqual(sorted(x.name for x in a.iterdir()),['manifest.json','metrics.csv','report.md','sensitivity','summary.json'])
+   for x in a.rglob("*"):
+    if x.is_file():self.assertEqual(x.read_bytes(),(b/x.relative_to(a)).read_bytes())
    manifest=json.loads((a/'manifest.json').read_text())
    for n,h in manifest['outputs'].items():self.assertEqual(p.sha(a/n),h)
  def test_altered_value_rejected(self):

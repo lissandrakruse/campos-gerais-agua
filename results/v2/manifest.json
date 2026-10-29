@@ -1,0 +1,19 @@
+{
+  "input_sha256": "52ff69ca53da06c2bd2d441629b79efe64a5435973d9c1957f97096cfbf10215",
+  "license_derived_table": "CC BY 4.0",
+  "mode": "published_derived_and_separate_constructed_scenarios",
+  "outputs": {
+    "metrics.csv": "f325577172ee9e8c10e73e9c023fb187c49e7b5383b66b92763dcee4aa88ca7c",
+    "report.md": "1fe9d74f95eca90726566ba488ae401f7ad119f018951c11092761d74b74cad5",
+    "sensitivity/constructed_scenarios/constructed_tsy_witnesses.csv": "08c54a72a9a2c6c2773d3cd1787e40d77580810604e1aab1eeaafc3b9e0497a4",
+    "sensitivity/constructed_scenarios/denominator_bound_scenarios.csv": "1f1daa056cf13dd4703050b5e87572fadc4536d907c2ac6ddb378b4fbdaac14b",
+    "sensitivity/published_descriptions/date_balanced_inputs.csv": "88aeb66502a193716a2c456d136e75e5d997ce2808d7e70ef7479289a114f440",
+    "sensitivity/published_descriptions/leave_one_date_out.csv": "5dc92510f398d1a56ee94d3cb979a85e57be600ac114a9351b55df72311fc3db",
+    "sensitivity/published_descriptions/metric_sensitivity.csv": "e6bd9ea08853c0f276d88e22cca7183585254eb568097dbb1b2bba218091e954",
+    "sensitivity/sensitivity_results.json": "a4d75b58feebae0027f29c773515cd9fe63a6c2cebfeaa0d27b15c0b44112d08",
+    "summary.json": "443492caa1483304ab8812c48777f6e718d50ecfa1e02e716497857b6a3c3e1b"
+  },
+  "pipeline_version": "2.0.0",
+  "source_doi": "10.1007/s11368-026-04517-0",
+  "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs11368-026-04517-0/MediaObjects/11368_2026_4517_MOESM1_ESM.docx"
+}

@@ -1,0 +1,5 @@
+metric,n_records,n_dates,n_positive,n_negative,row_mean_pct,row_median_pct,date_balanced_mean_pct,date_balanced_median_pct,date_minus_row_mean_pp,lodo_row_mean_min_pct,lodo_row_mean_max_pct,unknown_weight_closure_min_pct,unknown_weight_closure_max_pct,denominator_ratio_sign_threshold
+ssc_med_difference_pct,24,20,20,4,59.848333333333336,100.0,59.8465,100.0,-0.0018333333333373503,56.198181818181816,67.62130434782608,,,
+ssc_max_difference_pct,24,20,18,6,56.729166666666664,100.0,53.53975,100.0,-3.1894166666666663,52.79545454545455,66.68304347826087,,,
+trv_difference_pct,24,20,24,0,80.12041666666667,100.0,80.65475,98.275,0.5343333333333362,78.31318181818182,84.21954545454545,25.89,100.0,
+tsy_difference_pct,24,20,21,3,64.10958333333333,100.0,70.54025,100.0,6.430666666666667,60.84681818181818,84.48318181818182,-347.22,100.0,5.284087428650981

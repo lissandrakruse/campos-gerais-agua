@@ -1,0 +1,13 @@
+metric,assumed_max_to_min_denominator_ratio,lower_weighted_contrast_pct,upper_weighted_contrast_pct,interpretation
+trv_difference_pct,1,80.12041666666667,80.12041666666667,hypothetical independently bounded denominators; not estimated physical values
+trv_difference_pct,2,71.3296875,87.35368421052631,hypothetical independently bounded denominators; not estimated physical values
+trv_difference_pct,5,59.666875000000005,93.863625,hypothetical independently bounded denominators; not estimated physical values
+trv_difference_pct,6,57.39425925925926,94.74085106382978,hypothetical independently bounded denominators; not estimated physical values
+trv_difference_pct,10,51.1036231884058,96.61624113475177,hypothetical independently bounded denominators; not estimated physical values
+trv_difference_pct,100,33.91558558558559,99.63607170099161,hypothetical independently bounded denominators; not estimated physical values
+tsy_difference_pct,1,64.10958333333333,64.10958333333333,hypothetical independently bounded denominators; not estimated physical values
+tsy_difference_pct,2,43.07586206896552,78.61833333333333,hypothetical independently bounded denominators; not estimated physical values
+tsy_difference_pct,5,2.834166666666663,90.00579545454546,hypothetical independently bounded denominators; not estimated physical values
+tsy_difference_pct,6,-7.22852941176471,91.49980769230768,hypothetical independently bounded denominators; not estimated physical values
+tsy_difference_pct,10,-48.071212121212135,94.63011904761905,hypothetical independently bounded denominators; not estimated physical values
+tsy_difference_pct,100,-266.9605691056911,99.41736911862161,hypothetical independently bounded denominators; not estimated physical values

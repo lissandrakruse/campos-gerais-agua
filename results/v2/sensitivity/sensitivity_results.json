@@ -1,0 +1,95 @@
+{
+  "source_sha256": "52ff69ca53da06c2bd2d441629b79efe64a5435973d9c1957f97096cfbf10215",
+  "source_doi": "10.1007/s11368-026-04517-0",
+  "records": 24,
+  "dates": 20,
+  "same_date_multiple_records": {
+    "2023-03-03": 2,
+    "2023-10-12": 2,
+    "2023-10-28": 2,
+    "2024-12-09": 2
+  },
+  "metrics": [
+    {
+      "metric": "ssc_med_difference_pct",
+      "n_records": 24,
+      "n_dates": 20,
+      "n_positive": 20,
+      "n_negative": 4,
+      "row_mean_pct": 59.848333333333336,
+      "row_median_pct": 100.0,
+      "date_balanced_mean_pct": 59.8465,
+      "date_balanced_median_pct": 100.0,
+      "date_minus_row_mean_pp": -0.0018333333333373503,
+      "lodo_row_mean_min_pct": 56.198181818181816,
+      "lodo_row_mean_max_pct": 67.62130434782608,
+      "unknown_weight_closure_min_pct": null,
+      "unknown_weight_closure_max_pct": null,
+      "denominator_ratio_sign_threshold": null
+    },
+    {
+      "metric": "ssc_max_difference_pct",
+      "n_records": 24,
+      "n_dates": 20,
+      "n_positive": 18,
+      "n_negative": 6,
+      "row_mean_pct": 56.729166666666664,
+      "row_median_pct": 100.0,
+      "date_balanced_mean_pct": 53.53975,
+      "date_balanced_median_pct": 100.0,
+      "date_minus_row_mean_pp": -3.1894166666666663,
+      "lodo_row_mean_min_pct": 52.79545454545455,
+      "lodo_row_mean_max_pct": 66.68304347826087,
+      "unknown_weight_closure_min_pct": null,
+      "unknown_weight_closure_max_pct": null,
+      "denominator_ratio_sign_threshold": null
+    },
+    {
+      "metric": "trv_difference_pct",
+      "n_records": 24,
+      "n_dates": 20,
+      "n_positive": 24,
+      "n_negative": 0,
+      "row_mean_pct": 80.12041666666667,
+      "row_median_pct": 100.0,
+      "date_balanced_mean_pct": 80.65475,
+      "date_balanced_median_pct": 98.275,
+      "date_minus_row_mean_pp": 0.5343333333333362,
+      "lodo_row_mean_min_pct": 78.31318181818182,
+      "lodo_row_mean_max_pct": 84.21954545454545,
+      "unknown_weight_closure_min_pct": 25.89,
+      "unknown_weight_closure_max_pct": 100.0,
+      "denominator_ratio_sign_threshold": null
+    },
+    {
+      "metric": "tsy_difference_pct",
+      "n_records": 24,
+      "n_dates": 20,
+      "n_positive": 21,
+      "n_negative": 3,
+      "row_mean_pct": 64.10958333333333,
+      "row_median_pct": 100.0,
+      "date_balanced_mean_pct": 70.54025,
+      "date_balanced_median_pct": 100.0,
+      "date_minus_row_mean_pp": 6.430666666666667,
+      "lodo_row_mean_min_pct": 60.84681818181818,
+      "lodo_row_mean_max_pct": 84.48318181818182,
+      "unknown_weight_closure_min_pct": -347.22,
+      "unknown_weight_closure_max_pct": 100.0,
+      "denominator_ratio_sign_threshold": 5.284087428650981
+    }
+  ],
+  "constructed_witness_summary": [
+    {
+      "scenario": "equal",
+      "constructed_pooled_contrast_pct": 64.10958333333333,
+      "recovered_percentages_max_absolute_error": 5.684341886080802e-14
+    },
+    {
+      "scenario": "negative_tsy_weight_6",
+      "constructed_pooled_contrast_pct": -6.592820512820524,
+      "recovered_percentages_max_absolute_error": 5.684341886080802e-14
+    }
+  ],
+  "scope": "Published rounded contrasts, selected records at one paired site; no p-values, confidence intervals, generalization or observed absolute denominators."
+}
