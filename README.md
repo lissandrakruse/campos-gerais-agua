@@ -1,6 +1,6 @@
 # Campos Gerais Água
 
-**Projeto de pesquisa em estruturação. Sem modelo treinado, resultados próprios ou validação de campo nesta versão.**
+**Projeto em estruturação: auditoria computacional de dados publicados e processamento exploratório de uma imagem Sentinel-2. Sem modelo preditivo treinado ou validação de campo.**
 
 Responsável: Lissandra Kruse Fuganti. Escopo inicial: lavouras de Ponta Grossa e Carambeí, com extensão regional condicionada à disponibilidade e comparabilidade de dados.
 
@@ -71,3 +71,7 @@ Notebook autocontido, sem internet: [notebooks/campos_gerais_agua_kaggle.ipynb](
 O mesmo comando agora calcula médias por registro e balanceadas por data, influência da exclusão de cada data e cenários de denominadores desconhecidos. Descrições publicadas e testemunhas **construídas, não observadas** ficam em pastas separadas. Nenhum cenário representa produtividade/perda medida ou corrige conclusões dos autores. A não identificação se refere à Tabela S1 isolada. Consulte [método e limites](docs/sensitivity_method.md).
 
 [Kaggle — notebook em inglês](https://www.kaggle.com/code/lissandrakruse/campos-gerais-water-published-runoff-pipeline). A versão publicada no Kaggle tem histórico próprio; confira a versão exibida antes de comparar os resultados.
+
+## Observação da Terra — módulo separado
+
+[Sentinel-2 corrigido v2](eo/sentinel2/README.md): imagem real processada no Kaggle, 71.145 pixels finitos em grade de 20 m e 24 pixels acima de MNDWI > 0 (0,96 ha exploratórios, não inundação validada). A primeira versão com offset duplicado foi descartada. Código, notebook-fonte, atribuição e manifest preservados; sem bandas grandes ou manuscrito. **SWOT ainda não processado; comparação entre sensores pendente.**

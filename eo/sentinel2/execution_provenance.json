@@ -1,0 +1,10 @@
+{
+  "kaggle_url": "https://www.kaggle.com/code/lissandrakruse/campos-gerais-sentinel-2-water-indices?scriptVersionId=363624325",
+  "version": 2,
+  "run_status": "success",
+  "runtime_seconds": 41.3,
+  "executed_notebook_sha256": "ec682965c0b2247ef78d95f8e45d6f08e1fa15482be3a971a783200560bd4340",
+  "published_source_notebook_sha256": "86c168b4224410062cd64dcd7297851a400055005f9b48747b3d83cfc87ba99f",
+  "processing_script_sha256": "0c736be35f9daed413927952d09617ec6b7ecce2c38fc5f2462af3fa8b1e6b80",
+  "note": "Executed notebook outputs cleared for source-only GitHub storage. No imagery rerun during repository integration. Original downloaded raster hashes rechecked locally. Version 1 double-offset results are superseded. SWOT not processed."
+}
