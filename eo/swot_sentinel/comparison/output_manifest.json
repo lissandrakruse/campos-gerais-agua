@@ -1,0 +1,45 @@
+{
+  "checks_passed": 10,
+  "artifacts": {
+    "sentinel_valid_coverage.tif": {
+      "bytes": 531,
+      "sha256": "0a281785cb663175ecebbefb48cc5d4be1c16aa23d8da7d010c34666b90591a6"
+    },
+    "comparison_panels_pt.png": {
+      "bytes": 432278,
+      "sha256": "a8e63a2de8a602057e983173fc781b244f1e8670fa0906bc1a1340290ce40f09"
+    },
+    "comparison_metrics.json": {
+      "bytes": 6343,
+      "sha256": "f50a25f4085eb2b3c0cedff5969d7094ebb7270a7b8a62d664637893720cb88f"
+    },
+    "comparison_panels.png": {
+      "bytes": 430810,
+      "sha256": "5f253e017594f1aa872e92bc2293e1f2affa8ec58559678b2497b705180e5fc7"
+    },
+    "swot_water_fraction.tif": {
+      "bytes": 2986,
+      "sha256": "4ee399e9e90efb8aac0e3e0474beccaede449530b2fa49dcc45f94c76f19f17a"
+    },
+    "swot_water_fraction_uncertainty.tif": {
+      "bytes": 2891,
+      "sha256": "bfef2de89e061a5b3eeabe9cd7773dc69a42575f1cb954f133b7a84fa06cc385"
+    },
+    "paired_cells.csv": {
+      "bytes": 39001,
+      "sha256": "bcd215d51d5c14bab8349d4e8a755cee5a5092c363091720c50595b8ce17755d"
+    },
+    "sentinel_mndwi_water_fraction.tif": {
+      "bytes": 625,
+      "sha256": "2e0d7a0387f8ba1c7dd799b2eca5bdc9fbc5acbdd3566fc58a4cedddd5786749"
+    },
+    "exploratory_difference.tif": {
+      "bytes": 2930,
+      "sha256": "1f2f9b0e076b21b74a4fe4d773669febee5acfb650e80d111c75f9d2cb50d94c"
+    },
+    "swot_water_area_quality.tif": {
+      "bytes": 921,
+      "sha256": "d929bb73543e5b8b12bbaaff5f90932f84fb6eaff51620431f2f6dd90eaf5318"
+    }
+  }
+}

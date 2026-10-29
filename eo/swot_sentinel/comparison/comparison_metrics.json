@@ -1,0 +1,173 @@
+{
+  "status": "actual_both_sources_processed_strict_primary_no_eligible_cells",
+  "aoi_bbox_wgs84": [
+    -50.07,
+    -25.12,
+    -50.02,
+    -25.07
+  ],
+  "grid": "native SWOT 100 m EPSG:32722; cells selected by centers inside transformed AOI bounding rectangle",
+  "shape_rows_cols": [
+    55,
+    51
+  ],
+  "grid_bounds_utm22s": [
+    593750.0,
+    7221450.0,
+    598850.0,
+    7226950.0
+  ],
+  "swot_input_sha256": "9b0784947d429aa3f6a7b9f8f3a0e3b8aa11d4e5ab76e6ec1c3990efd89e7cad",
+  "swot_input_bytes": 58906,
+  "swot_attributes": {
+    "Conventions": "CF-1.7",
+    "title": "Level 2 KaRIn High Rate Raster Data Product",
+    "source": "Ka-band radar interferometer",
+    "history": "2025-06-20T04:19:39Z : Creation",
+    "platform": "SWOT",
+    "references": "V1.4.1",
+    "reference_document": "D-56416_SWOT_Product_Description_L2_HR_Raster",
+    "contact": "podaac@podaac.jpl.nasa.gov",
+    "cycle_number": 34,
+    "pass_number": 227,
+    "scene_number": 55,
+    "tile_numbers": [
+      108,
+      109,
+      110,
+      111,
+      108,
+      109,
+      110,
+      111
+    ],
+    "tile_names": "227_108L, 227_109L, 227_110L, 227_111L, 227_108R, 227_109R, 227_110R, 227_111R",
+    "tile_polarizations": "H, H, H, H, V, V, V, V",
+    "coordinate_reference_system": "Universal Transverse Mercator",
+    "resolution": 100.0,
+    "short_name": "L2_HR_Raster",
+    "descriptor_string": "100m_UTM22J_N_x_x_x",
+    "crid": "PID0",
+    "product_version": "01",
+    "pge_name": "PGE_L2_HR_RASTER",
+    "pge_version": "5.4.0",
+    "time_granule_start": "2025-06-16T20:26:30.456422Z",
+    "time_granule_end": "2025-06-16T20:26:51.577952Z",
+    "time_coverage_start": "2025-06-16T20:26:30.992605Z",
+    "time_coverage_end": "2025-06-16T20:26:51.041286Z",
+    "left_first_longitude": -50.3459377776651,
+    "left_first_latitude": -26.17829521962087,
+    "left_last_longitude": -50.116138207900654,
+    "left_last_latitude": -25.04261543691817,
+    "right_first_longitude": -49.084641449273974,
+    "right_first_latitude": -26.38293766784323,
+    "right_last_longitude": -48.866116518203334,
+    "right_last_latitude": -25.243922947539403,
+    "utm_zone_num": 22,
+    "mgrs_latitude_band": "J",
+    "institution": "CNES",
+    "derived_subset_description": "Fixed Capao da Onca context AOI; native100m cells selected by center in projected bounding rectangle. Not a complete original granule.",
+    "source_original_filename": "SWOT_L2_HR_Raster_100m_UTM22J_N_x_x_x_034_227_055F_20250616T202630_20250616T202651_PID0_01.nc",
+    "source_original_sha256": "e4ee6c41d1fcef423a2d1285fe78ffa6656daf032cfe673935ac62051bb4400d"
+  },
+  "sentinel_manifest_sha256": "e92deec6f63afa41f79ee39793b12bf0be4364d10390661e7b3bb6628ced0b2f",
+  "temporal_separation_hours": 17.047184444444444,
+  "swot_finite_water_fraction_cells": 508,
+  "swot_quality_counts_all_cells": {
+    "1": 508,
+    "3": 2297
+  },
+  "quality_flags_over_finite_water_fraction_cells": {
+    "classification_qual_suspect": 52,
+    "geolocation_qual_suspect": 507,
+    "water_fraction_suspect": 0,
+    "large_uncert_suspect": 0,
+    "dark_water_suspect": 0,
+    "bright_land": 12,
+    "low_coherence_water_suspect": 75,
+    "specular_ringing_prior_water_suspect": 0,
+    "specular_ringing_prior_land_suspect": 0,
+    "few_pixels": 268,
+    "far_range_suspect": 0,
+    "near_range_suspect": 0,
+    "classification_qual_degraded": 0,
+    "geolocation_qual_degraded": 0,
+    "value_bad": 0,
+    "outside_data_window": 0,
+    "no_pixels": 0,
+    "outside_scene_bounds": 0,
+    "inner_swath": 0,
+    "missing_karin_data": 0
+  },
+  "optical_coverage_ge80_and_complete_cell_count": 2750,
+  "primary_quality0": {
+    "n": 0,
+    "mae_fraction": null,
+    "mean_difference_swot_minus_optical_fraction": null,
+    "rmse_fraction": null,
+    "pearson_r": null,
+    "swot_mean_fraction": null,
+    "optical_mean_fraction": null,
+    "optical_nonzero_cells": 0,
+    "swot_negative_cells": 0
+  },
+  "sensitivity_quality_le1": {
+    "n": 495,
+    "mae_fraction": 0.018425560131386604,
+    "mean_difference_swot_minus_optical_fraction": 0.017472212224853102,
+    "rmse_fraction": 0.04479628827912917,
+    "pearson_r": 0.5511087464261017,
+    "swot_mean_fraction": 0.019290394013684146,
+    "optical_mean_fraction": 0.0018181817140430212,
+    "optical_nonzero_cells": 13,
+    "swot_negative_cells": 39
+  },
+  "threshold_sensitivity_quality_le1": {
+    "-0.1": {
+      "n": 495,
+      "mae_fraction": 0.018426780688651438,
+      "mean_difference_swot_minus_optical_fraction": 0.01642170717901407,
+      "rmse_fraction": 0.043425902085852494,
+      "pearson_r": 0.5543703712208661,
+      "swot_mean_fraction": 0.019290394013684146,
+      "optical_mean_fraction": 0.0028686868026852608,
+      "optical_nonzero_cells": 19,
+      "swot_negative_cells": 39
+    },
+    "0.0": {
+      "n": 495,
+      "mae_fraction": 0.018425560131386604,
+      "mean_difference_swot_minus_optical_fraction": 0.017472212224853102,
+      "rmse_fraction": 0.04479628827912917,
+      "pearson_r": 0.5511087464261017,
+      "swot_mean_fraction": 0.019290394013684146,
+      "optical_mean_fraction": 0.0018181817140430212,
+      "optical_nonzero_cells": 13,
+      "swot_negative_cells": 39
+    },
+    "0.1": {
+      "n": 495,
+      "mae_fraction": 0.01877812765553722,
+      "mean_difference_swot_minus_optical_fraction": 0.018563121280089714,
+      "rmse_fraction": 0.04812888034379654,
+      "pearson_r": 0.45069790907691126,
+      "swot_mean_fraction": 0.019290394013684146,
+      "optical_mean_fraction": 0.0007272727089002728,
+      "optical_nonzero_cells": 8,
+      "swot_negative_cells": 39
+    }
+  },
+  "water_fraction_uncertainty_suspect_quantiles_5_50_95": [
+    0.001516508567146957,
+    0.004005135037004948,
+    0.01640802640467882
+  ],
+  "limitations": [
+    "No good-quality water-fraction cells: strict primary comparison cannot be estimated.",
+    "Suspect-only differences are exploratory cross-sensor consistency, not accuracy or agronomic validation.",
+    "MNDWI binary threshold fraction is not equivalent to SWOT water-fraction estimator.",
+    "Approximately17h temporal mismatch; no independent contemporaneous ground truth.",
+    "Negative SWOT fractions retained, not clipped; missing SWOT is never interpreted as zero water.",
+    "Fixed context AOI, not surveyed crop plots; no post-hoc geographic expansion."
+  ]
+}

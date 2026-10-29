@@ -1,0 +1,89 @@
+{
+  "scope": "Actual public satellite derivative subset and reproduced outputs; not raw full granule or field validation",
+  "files": {
+    "SENTINEL_ATTRIBUTION.md": {
+      "bytes": 1160,
+      "sha256": "a8cddf22d8f16e4d22906e3042fcd04ac92800b9848f88a94778e3e407e1c24d"
+    },
+    "test_comparison.py": {
+      "bytes": 2151,
+      "sha256": "763d8ab3ac325ee7a5d2dd9b50cd466a270378294b16207c7acba6c49b5aa52f"
+    },
+    "SWOT_ATTRIBUTION.md": {
+      "bytes": 606,
+      "sha256": "56279b4c6326624a4c374b5613e722cd5eaaeb70ce97486b794e21f268c2144a"
+    },
+    "README.md": {
+      "bytes": 2424,
+      "sha256": "ad83334a8387f7152a357841a5d066d428840b8be0ff5844d6eb4dda79ac8ffa"
+    },
+    "joint_swot_sentinel_kaggle.ipynb": {
+      "bytes": 369794,
+      "sha256": "d3b9e4e321889dcd2e9fbb83164d7d48744b16862bcae88feb13a2648b39918c"
+    },
+    "requirements_comparison.txt": {
+      "bytes": 71,
+      "sha256": "38a1d5b1edc6840b3ff59a4592f9829567bd16a718e260f60d34e87b7a597bcd"
+    },
+    "compare_actual.py": {
+      "bytes": 7944,
+      "sha256": "4d781b72fff43352a5b60b6d69953a796d9c035dcfe54d62d4e09a87472e2051"
+    },
+    "comparison/sentinel_valid_coverage.tif": {
+      "bytes": 531,
+      "sha256": "0a281785cb663175ecebbefb48cc5d4be1c16aa23d8da7d010c34666b90591a6"
+    },
+    "comparison/output_manifest.json": {
+      "bytes": 1514,
+      "sha256": "31da3e8040633865e24048111bbefc0b966d26d070ac0ac9253f519c52247d27"
+    },
+    "comparison/comparison_panels_pt.png": {
+      "bytes": 432278,
+      "sha256": "a8e63a2de8a602057e983173fc781b244f1e8670fa0906bc1a1340290ce40f09"
+    },
+    "comparison/comparison_metrics.json": {
+      "bytes": 6343,
+      "sha256": "f50a25f4085eb2b3c0cedff5969d7094ebb7270a7b8a62d664637893720cb88f"
+    },
+    "comparison/comparison_panels.png": {
+      "bytes": 430810,
+      "sha256": "5f253e017594f1aa872e92bc2293e1f2affa8ec58559678b2497b705180e5fc7"
+    },
+    "comparison/swot_water_fraction.tif": {
+      "bytes": 2986,
+      "sha256": "4ee399e9e90efb8aac0e3e0474beccaede449530b2fa49dcc45f94c76f19f17a"
+    },
+    "comparison/swot_water_fraction_uncertainty.tif": {
+      "bytes": 2891,
+      "sha256": "bfef2de89e061a5b3eeabe9cd7773dc69a42575f1cb954f133b7a84fa06cc385"
+    },
+    "comparison/paired_cells.csv": {
+      "bytes": 39001,
+      "sha256": "bcd215d51d5c14bab8349d4e8a755cee5a5092c363091720c50595b8ce17755d"
+    },
+    "comparison/sentinel_mndwi_water_fraction.tif": {
+      "bytes": 625,
+      "sha256": "2e0d7a0387f8ba1c7dd799b2eca5bdc9fbc5acbdd3566fc58a4cedddd5786749"
+    },
+    "comparison/exploratory_difference.tif": {
+      "bytes": 2930,
+      "sha256": "1f2f9b0e076b21b74a4fe4d773669febee5acfb650e80d111c75f9d2cb50d94c"
+    },
+    "comparison/swot_water_area_quality.tif": {
+      "bytes": 921,
+      "sha256": "d929bb73543e5b8b12bbaaff5f90932f84fb6eaff51620431f2f6dd90eaf5318"
+    },
+    "input/swot_055F_20250616.nc": {
+      "bytes": 58906,
+      "sha256": "9b0784947d429aa3f6a7b9f8f3a0e3b8aa11d4e5ab76e6ec1c3990efd89e7cad"
+    },
+    "kaggle_outputs_v2/sentinel/S2B_22JET_20250617_0_L2A/mndwi.tif": {
+      "bytes": 247458,
+      "sha256": "18ca1ad5a1e3d9e6258a92aa90a734a16e220f578bd4194411a18d70f67d2914"
+    },
+    "kaggle_outputs_v2/sentinel/S2B_22JET_20250617_0_L2A/manifest.json": {
+      "bytes": 5674,
+      "sha256": "e92deec6f63afa41f79ee39793b12bf0be4364d10390661e7b3bb6628ced0b2f"
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "item_id": "S2B_22JET_20250617_0_L2A",
+  "datetime": "2025-06-17T13:29:20.320000Z",
+  "aoi_bbox_wgs84": [
+    -50.07,
+    -25.12,
+    -50.02,
+    -25.07
+  ],
+  "output_bounds_utm22s": [
+    593740,
+    7221400,
+    598840,
+    7226980
+  ],
+  "grid_resolution_m": 20,
+  "assets": {
+    "green": {
+      "source": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/ET/2025/6/S2B_22JET_20250617_0_L2A/B03.tif",
+      "source_resolution_m": [
+        10.0,
+        10.0
+      ],
+      "scale": 0.0001,
+      "effective_offset": 0,
+      "declared_stac_offset": -0.1,
+      "clip_sha256": "1ab31b0036de71e963d79e519cf8caed472bc735fdb663000427ece112210173"
+    },
+    "nir": {
+      "source": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/ET/2025/6/S2B_22JET_20250617_0_L2A/B08.tif",
+      "source_resolution_m": [
+        10.0,
+        10.0
+      ],
+      "scale": 0.0001,
+      "effective_offset": 0,
+      "declared_stac_offset": -0.1,
+      "clip_sha256": "117322f7c01b8878bc4421bb31cb493205fd5fac741bc1b07f3a0e036ad0207c"
+    },
+    "swir16": {
+      "source": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/ET/2025/6/S2B_22JET_20250617_0_L2A/B11.tif",
+      "source_resolution_m": [
+        20.0,
+        20.0
+      ],
+      "scale": 0.0001,
+      "effective_offset": 0,
+      "declared_stac_offset": -0.1,
+      "clip_sha256": "05a74a1fe6097f3ed3445963482d05cf0ccc919a4f68f6f80976e7d6312f26e2"
+    },
+    "scl": {
+      "source": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/ET/2025/6/S2B_22JET_20250617_0_L2A/SCL.tif",
+      "source_resolution_m": [
+        20.0,
+        20.0
+      ],
+      "scale": 1,
+      "effective_offset": 0,
+      "declared_stac_offset": 0,
+      "clip_sha256": "68649895599a1ca896b1272258b71cc9edf0ad7401dcb3e745390a19e8761160"
+    },
+    "red": {
+      "source": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/ET/2025/6/S2B_22JET_20250617_0_L2A/B04.tif",
+      "source_resolution_m": [
+        10.0,
+        10.0
+      ],
+      "scale": 0.0001,
+      "effective_offset": 0,
+      "declared_stac_offset": -0.1,
+      "clip_sha256": "9f3559d088bb2d8e468e899eec72f8accb1a520e80a7732c1782dfe91cdfe008"
+    },
+    "blue": {
+      "source": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/22/J/ET/2025/6/S2B_22JET_20250617_0_L2A/B02.tif",
+      "source_resolution_m": [
+        10.0,
+        10.0
+      ],
+      "scale": 0.0001,
+      "effective_offset": 0,
+      "declared_stac_offset": -0.1,
+      "clip_sha256": "f98bd5c6b50e9c798145c93ec29b9c5fc1bdf7fbabd956a7264fe1433888f889"
+    }
+  },
+  "method": {
+    "reflectance": "EarthSearch harmonized COG: boa_offset_applied=true so effective offset=0, scale=0.0001; conflicting declared offset retained for audit; v1 superseded",
+    "resampling": "10m reflectance averaged to 20m; 20m SWIR nearest for alignment; SCL nearest",
+    "mask": "SCL 4,5,6 only; excludes shadow/cloud/snow/unclassified/dark/notdata",
+    "classification": "MNDWI>0 illustrative unvalidated threshold; not ground truth"
+  },
+  "retrieved_utc": "2026-10-29T21:27:03.544717+00:00",
+  "qa": {
+    "band_percentiles_0_5_50_95_100": {
+      "green": [
+        0.005624999757856131,
+        0.030649999156594276,
+        0.06515000015497208,
+        0.0890749990940094,
+        0.32179999351501465
+      ],
+      "nir": [
+        0.017149999737739563,
+        0.18059998750686646,
+        0.26295000314712524,
+        0.4607999920845032,
+        0.6287999749183655
+      ],
+      "swir16": [
+        0.014800000004470348,
+        0.11911999732255939,
+        0.21279999613761902,
+        0.28790000081062317,
+        0.41200000047683716
+      ],
+      "red": [
+        0.00317499996162951,
+        0.019899999722838402,
+        0.05872499942779541,
+        0.09794499725103385,
+        0.32359999418258667
+      ],
+      "blue": [
+        0.005074999760836363,
+        0.01887499913573265,
+        0.039024997502565384,
+        0.058375000953674316,
+        0.3208499848842621
+      ]
+    },
+    "index_valid_counts": {
+      "ndwi": 71145,
+      "mndwi": 71145
+    },
+    "total_pixels": 71145,
+    "valid_scl_pixels": 71145,
+    "valid_fraction": 1.0,
+    "scl_counts": {
+      "4": 64410,
+      "5": 6729,
+      "6": 6
+    },
+    "mndwi_positive_pixels": 24,
+    "mndwi_positive_area_ha": 0.96,
+    "warning": "Area is exploratory threshold-selected area over whole AOI, not crop-specific or validated flooding."
+  },
+  "data_attribution": "Contains modified Copernicus Sentinel data [2025]",
+  "calibration_reference": "https://github.com/Element84/earth-search/discussions/26",
+  "metadata_conflict_reference": "https://github.com/Element84/earth-search/issues/71",
+  "all_output_hashes": {
+    "mndwi.tif": "18ca1ad5a1e3d9e6258a92aa90a734a16e220f578bd4194411a18d70f67d2914",
+    "nir.tif": "117322f7c01b8878bc4421bb31cb493205fd5fac741bc1b07f3a0e036ad0207c",
+    "green.tif": "1ab31b0036de71e963d79e519cf8caed472bc735fdb663000427ece112210173",
+    "swir16.tif": "05a74a1fe6097f3ed3445963482d05cf0ccc919a4f68f6f80976e7d6312f26e2",
+    "ndwi.tif": "a1afbb02a05bc805a1d0c5c18f51c9d7c81d438c39c1c62b93b7acb3f3a6741b",
+    "scl.tif": "68649895599a1ca896b1272258b71cc9edf0ad7401dcb3e745390a19e8761160",
+    "stac_item.json": "190a791da6639ac03c87608142a66853c28f72117056f87b29186d44a37210cf",
+    "sentinel_preview.png": "4fdcc5dfab54a8360d79521e830bd3c8827cee0bd9b486179c83728e625a0751",
+    "blue.tif": "f98bd5c6b50e9c798145c93ec29b9c5fc1bdf7fbabd956a7264fe1433888f889",
+    "red.tif": "9f3559d088bb2d8e468e899eec72f8accb1a520e80a7732c1782dfe91cdfe008"
+  }
+}

@@ -75,3 +75,7 @@ O mesmo comando agora calcula médias por registro e balanceadas por data, influ
 ## Observação da Terra — módulo separado
 
 [Sentinel-2 corrigido v2](eo/sentinel2/README.md): imagem real processada no Kaggle, 71.145 pixels finitos em grade de 20 m e 24 pixels acima de MNDWI > 0 (0,96 ha exploratórios, não inundação validada). A primeira versão com offset duplicado foi descartada. Código, notebook-fonte, atribuição e manifest preservados; sem bandas grandes ou manuscrito. **SWOT ainda não processado; comparação entre sensores pendente.**
+
+## Comparação real SWOT–Sentinel
+
+[Módulo conjunto](eo/swot_sentinel/README.md) com subset mínimo público, código, métricas e mapas: filtro primário de boa qualidade tem **n=0**; a sensibilidade com 495 pares suspeitos é apenas exploratória, não acurácia ou validação agronômica. O status anterior de SWOT pendente fica superado por este módulo; não foi alterada a calibração Sentinel corrigida.
