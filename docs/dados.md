@@ -1,7 +1,7 @@
 # Acesso, proveniência e direitos
 
 ## Situação inicial
-Nenhuma série bruta experimental de terceiros foi incorporada neste repositório. O suplemento público de De Paula et al. (2026, Journal of Soils and Sediments) contém 24 eventos datados e quatro contrastes percentuais derivados; esses contrastes não substituem as séries absolutas por parcela e ainda não foram incorporados como dados analíticos. O catálogo descreve evidência disponível e pendências, não uma coleção já integrada. Não houve contato com pesquisadores em nome da responsável.
+Nenhuma série bruta experimental de terceiros foi incorporada neste repositório. O suplemento público de De Paula et al. (2026, Journal of Soils and Sediments) contém 24 eventos datados e quatro contrastes percentuais derivados; esses contrastes não substituem as séries absolutas por parcela e estão preservados como uma extração derivada atribuída em `data/published_derived/`, separada do esquema de eventos brutos. O catálogo descreve evidência disponível e pendências, não uma coleção já integrada. Não houve contato com pesquisadores em nome da responsável.
 
 Para cada fonte obter: versão/DOI, titular, licença ou autorização, unidade experimental, área, limites autorizados, datas/fuso, frequência, sensores/calibração, protocolo de agregação, faltantes, tratamentos e histórico de manejo. Registrar hash do arquivo recebido, data de acesso e transformações. Publicar dados brutos somente quando a permissão realmente cobrir redistribuição.
 
@@ -18,3 +18,8 @@ Chuva: priorizar o pluviômetro do experimento. SIMEPAR/IDR/INMET podem compleme
 
 ## Sobreposições
 Capão da Onça: Barbosa 2025 e De Paula 2026 não são dois sítios independentes. Carambeí: capacidade de água disponível é propriedade derivada de retenção, não observação contínua de umidade. Estudos históricos anteriores aos sensores não podem ser alinhados a imagens modernas como se contemporâneos.
+
+## Inconsistências documentais a resolver
+- Não unir automaticamente os eventos de março de 2023 entre os artigos: os rótulos/datas diferem; preservar o original e obter horários antes da integração.
+- A figura de cobertura de 2025 associa uma imagem de 6/03/2023 a um evento de 3/03/2023 como antecedente. A cronologia precisa ser esclarecida; a imagem não será usada como preditor pré-evento sem verificação.
+- Eventos sucessivos no mesmo período chuvoso e as duas parcelas observadas na mesma tempestade devem permanecer no mesmo grupo de avaliação, quando identificáveis. O agrupamento exigirá metadados reais, não somente IDs inventados.

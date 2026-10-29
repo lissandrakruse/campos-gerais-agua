@@ -18,7 +18,8 @@ Há experimentos locais documentados de chuva e escoamento, mas as séries compl
 - [Plano de acesso e proveniência](docs/dados.md): acesso, licenças e critérios de integração.
 - [Dicionário de dados](docs/dicionario.md) e [CSV vazio](data/templates/eventos.csv).
 - Validador de formato e testes unitários em Python, sem dependências externas.
-- Exemplo **inteiramente sintético**, destinado apenas a testar o programa.
+- [Contrastes derivados publicados](data/published_derived/PROVENANCE.md): extração atribuída de 24 eventos/96 células do suplemento de De Paula et al. (2026), não séries brutas nem resultados de nosso modelo.
+- Exemplo **inteiramente sintético**, destinado apenas a testar o validador de eventos.
 
 ## Executar
 Requer Python 3.10 ou superior. A partir da raiz:
@@ -50,6 +51,6 @@ Artigos da Capão da Onça de 2025 e 2026 compartilham o sítio experimental e n
 5. Relatar resultados positivos ou negativos com incertezas e rastreabilidade.
 
 ## Integridade e direitos
-Somente documentação original, código inicial e exemplos sintéticos foram publicados. PDFs de artigos, séries de terceiros e coordenadas privadas de propriedades não foram republicados. As fontes mantêm suas licenças. A disponibilização pública deste repositório não concede uma licença geral de reutilização; nenhuma licença de software foi escolhida nesta versão.
+Foram publicados documentação original, código inicial, exemplos sintéticos e uma extração atribuída de tabela factual sob CC BY 4.0, com proveniência e limites explícitos. PDFs de artigos, séries de terceiros e coordenadas privadas de propriedades não foram republicados. As fontes mantêm suas licenças. A tabela derivada mantém a licença CC BY 4.0 da fonte, conforme sua proveniência. A disponibilização pública dos demais arquivos não concede uma licença geral de reutilização; nenhuma licença de software foi escolhida nesta versão.
 
 Foi utilizada assistência de IA na estruturação e no código inicial. Os testes verificam software, não validade científica; análise, interpretação e eventual submissão exigem revisão humana. Publicação no GitHub não é publicação científica revisada por pares.

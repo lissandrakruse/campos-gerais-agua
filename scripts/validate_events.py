@@ -2,7 +2,7 @@
 import argparse
 import csv
 import math
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 
 FIELDS = ["event_id", "storm_group_id", "site_id", "plot_id", "start_utc", "end_utc", "rainfall_mm", "runoff_mm", "cover_pct", "source_id", "data_kind"]

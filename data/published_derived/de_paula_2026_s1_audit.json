@@ -1,0 +1,61 @@
+{
+  "n_event_rows": 24,
+  "n_distinct_dates": 20,
+  "duplicate_full_event_labels": 0,
+  "multiple_events_same_date": {
+    "2023-03-03": 2,
+    "2023-10-12": 2,
+    "2023-10-28": 2,
+    "2024-12-09": 2
+  },
+  "year_counts": {
+    "2023": 19,
+    "2024": 4,
+    "2025": 1
+  },
+  "metrics": {
+    "ssc_med_difference_pct": {
+      "n": 24,
+      "min_pct": -118.93,
+      "max_pct": 100.0,
+      "median_pct_unweighted": 100.0,
+      "n_negative": 4,
+      "n_zero": 0,
+      "n_positive": 20,
+      "n_equal_100_reported": 14
+    },
+    "ssc_max_difference_pct": {
+      "n": 24,
+      "min_pct": -172.21,
+      "max_pct": 100.0,
+      "median_pct_unweighted": 100.0,
+      "n_negative": 6,
+      "n_zero": 0,
+      "n_positive": 18,
+      "n_equal_100_reported": 14
+    },
+    "trv_difference_pct": {
+      "n": 24,
+      "min_pct": 25.89,
+      "max_pct": 100.0,
+      "median_pct_unweighted": 100.0,
+      "n_negative": 0,
+      "n_zero": 0,
+      "n_positive": 24,
+      "n_equal_100_reported": 13
+    },
+    "tsy_difference_pct": {
+      "n": 24,
+      "min_pct": -347.22,
+      "max_pct": 100.0,
+      "median_pct_unweighted": 100.0,
+      "n_negative": 3,
+      "n_zero": 0,
+      "n_positive": 21,
+      "n_equal_100_reported": 14
+    }
+  },
+  "interpretation": "Published rounded relative contrasts only. No absolute runoff volumes, rainfall predictors or sampling denominators. Unweighted descriptions are not pooled reductions, confidence intervals or independent treatment effects. 100% is as reported, not independently verified absence.",
+  "source_sha256": "eb6e8d5bfa74c1f039fb62b56601fbb6d764b5e393f28b7bd26e9d8c6172bee6",
+  "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs11368-026-04517-0/MediaObjects/11368_2026_4517_MOESM1_ESM.docx"
+}
