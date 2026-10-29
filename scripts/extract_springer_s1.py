@@ -35,7 +35,7 @@ def main():
  p=argparse.ArgumentParser();p.add_argument('docx',type=Path);p.add_argument('--out',type=Path,default=Path('.'));a=p.parse_args();a.out.mkdir(parents=True,exist_ok=True)
  rows=extract(a.docx)
  with (a.out/'de_paula_2026_s1_derived_event_contrasts.csv').open('w',newline='',encoding='utf-8') as f:
-  w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+  w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator="\n");w.writeheader();w.writerows(rows)
  summary=describe(rows);summary['source_sha256']=hashlib.sha256(a.docx.read_bytes()).hexdigest();summary['source_url']=URL
  (a.out/'de_paula_2026_s1_audit.json').write_text(json.dumps(summary,indent=2,ensure_ascii=False)+'\n')
  print(json.dumps(summary,indent=2))

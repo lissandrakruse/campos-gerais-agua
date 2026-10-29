@@ -54,3 +54,14 @@ Artigos da Capão da Onça de 2025 e 2026 compartilham o sítio experimental e n
 Foram publicados documentação original, código inicial, exemplos sintéticos e uma extração atribuída de tabela factual sob CC BY 4.0, com proveniência e limites explícitos. PDFs de artigos, séries de terceiros e coordenadas privadas de propriedades não foram republicados. As fontes mantêm suas licenças. A tabela derivada mantém a licença CC BY 4.0 da fonte, conforme sua proveniência. A disponibilização pública dos demais arquivos não concede uma licença geral de reutilização; nenhuma licença de software foi escolhida nesta versão.
 
 Foi utilizada assistência de IA na estruturação e no código inicial. Os testes verificam software, não validade científica; análise, interpretação e eventual submissão exigem revisão humana. Publicação no GitHub não é publicação científica revisada por pares.
+
+## Pipeline descritivo executável
+
+```bash
+python scripts/run_pipeline.py --out outputs/published
+python -m unittest discover -s tests -v
+```
+
+Sem dependências externas. Confere o hash da tabela auditada (todos os 96 valores e metadados), gera `summary.json`, `metrics.csv`, `report.md` e `manifest.json` com hashes. Resultados determinísticos, sem dados sintéticos nesse fluxo. A comparação independente com o documento original é uma etapa separada de extração/auditoria.
+
+Notebook autocontido, sem internet: [notebooks/campos_gerais_agua_kaggle.ipynb](notebooks/campos_gerais_agua_kaggle.ipynb). Pronto para execução no Kaggle; a presença deste arquivo não significa que já foi publicado ou executado naquela plataforma. Exemplos sintéticos continuam apenas no validador de esquema separado.

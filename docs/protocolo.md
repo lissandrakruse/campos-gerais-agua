@@ -31,3 +31,7 @@ Alagamento é um desfecho diferente: exige presença/ausência ou extensão de l
 
 ## Critérios de continuidade
 Prosseguir para comparação preditiva somente após acesso legítimo, metadados auditáveis e desenho de avaliação viável. Se os dados forem apenas tabelas agregadas, limitar a síntese e a análise descritiva. Não extrapolar para alertas, perdas de produtividade ou recomendações de drenagem sem validação própria. Escolha da revista e alegações de contribuição dependem dos resultados e da revisão atualizada da literatura.
+
+### Viés de seleção de eventos
+
+Os 24 registros da Tabela S1 são eventos selecionados com escoamento, não todas as chuvas elegíveis. Um classificador de ocorrência exigiria também eventos elegíveis com ausência verificada de escoamento. Não se estima prevalência ou recall a partir desta lista. Agregados completos por evento e preditores auditados podem permitir modelos limitados futuros; hidrogramas minuto a minuto não são obrigatórios para todo modelo.
